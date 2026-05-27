@@ -1,0 +1,27 @@
+# PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code settings (PlatformIO regenerates these)
+.vscode/
+!.vscode/extensions.json
+
+# Secrets (we'll use a secrets header that should NEVER be committed)
+include/secrets.h
+src/secrets.h
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Compiled artifacts
+*.bin
+*.elf
+*.hex
+*.map
+
+# Python venv if anyone adds one
+.venv/
+venv/
+__pycache__/
